@@ -36,7 +36,15 @@ export default [
   {
     languageOptions: {
       globals: {
+        // Browser globals used in the project
+        window: "readonly",
         document: "readonly",
+        console: "readonly",
+        localStorage: "readonly",
+        setTimeout: "readonly",
+        setInterval: "readonly",
+        clearTimeout: "readonly",
+        clearInterval: "readonly",
       },
     },
   },
